@@ -33,6 +33,10 @@ Utilicé ChatGPT para redactar la función que calcula la película con mayor re
         const grossData = topGrossMovies.map(movie => movie.gross).reverse();
         const namesData = topGrossMovies.map(movie => movie.movie_name).reverse();
 
+Dataset
+
+Se utilizó un dataset de películas de romance, recuperado del mismo enlace proporcionado en la ayudantía. Link: https://www.kaggle.com/datasets/rajugc/imdb-movies-dataset-based-on-genre?resource=download&select=romance.csv
+
 
 Diseño
 
